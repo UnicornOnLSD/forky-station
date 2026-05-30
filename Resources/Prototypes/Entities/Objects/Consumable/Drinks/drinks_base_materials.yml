@@ -3,8 +3,9 @@
   id: DrinkBaseMaterialGlass
   components:
   - type: Damageable
-    damageContainer: Inorganic
     damageModifierSet: FlimsyGlass
+  - type: Injurable
+    damageContainer: Inorganic
   - type: Destructible
     thresholds:
     - trigger: # Overkill threshold
@@ -79,6 +80,7 @@
   id: DrinkBaseMaterialPlastic
   components:
   - type: Damageable
+  - type: Injurable
     damageContainer: Inorganic
 #    damageModifierSet: FlimsyPlastic TODO
   - type: Destructible
@@ -154,8 +156,9 @@
   id: DrinkBaseMaterialCardboard
   components:
   - type: Damageable
-    damageContainer: Inorganic
     damageModifierSet: Card
+  - type: Injurable
+    damageContainer: Inorganic
   - type: Destructible
     thresholds:
     - trigger: # Overkill threshold
@@ -193,8 +196,9 @@
   id: DrinkBaseMaterialMetal
   components:
   - type: Damageable
-    damageContainer: Inorganic
     damageModifierSet: FlimsyMetallic
+  - type: Injurable
+    damageContainer: Inorganic
   - type: Destructible
     thresholds:
     - trigger: # Overkill threshold
@@ -262,8 +266,9 @@
   id: DrinkBaseMaterialGold
   components:
   - type: Damageable
-    damageContainer: Inorganic
     damageModifierSet: FlimsyMetallic
+  - type: Injurable
+    damageContainer: Inorganic
   - type: Destructible
     thresholds:
     - trigger: # Overkill threshold
